@@ -1,15 +1,18 @@
-<div class="new-answer">
-  <h2>New Answer</h2>
-  <form>
-    <div class="form-group">
-      <label for="content">Answer</label>
-      {{input value=content id="username"}}
-    </div>
-    <div class="form-group">
-      <label for="author">Username</label>
-      {{input value=author id="author"}}
-    </div>
-    <button {{action 'saveAnswer1'}}>Add Answer</button>
-  </form>
-
-</div>
+{{#if addNewAnswer}}
+  <div class="new-answer">
+    <h2>New Answer</h2>
+    <form>
+      <div class="form-group">
+        <label for="content">Answer</label>
+        {{textarea value=content id="username"}}
+      </div>
+      <div class="form-group">
+        <label for="author">Username</label>
+        {{input value=author id="author"}}
+      </div>
+      <button {{action 'saveAnswer1'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'answerFormShow'}}>Add Answer</button>
+{{/if}}

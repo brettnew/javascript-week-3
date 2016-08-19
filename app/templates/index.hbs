@@ -1,9 +1,11 @@
-<h1>Welcome to the Q &amp; A Board</h1>
+<h1 class="heading">Welcome to the Q &amp; A Forum</h1>
 
 <h1>Questions:</h1>
+<div class="questions">
   {{#each model.questions as |question|}}
-    <h1>{{#link-to 'question' question.id}}{{question.content}}{{/link-to}}</h1>
-    <h6>{{question.author}}</h6>
+  <h2>{{#link-to 'question' question.id}}{{question.content}}{{/link-to}}</h2>
+  <h6>{{question.author}}</h6>
   {{/each}}
+</div>
 
 {{add-question saveQuestion2="saveQuestion3"}}

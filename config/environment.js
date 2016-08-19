@@ -23,7 +23,7 @@ module.exports = function(environment) {
     authDomain: "question-message-boards.firebaseapp.com",
     databaseURL: "https://question-message-boards.firebaseio.com",
     storageBucket: "",
-    };
+    }
 
   };
 

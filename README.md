@@ -56,24 +56,24 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
-  ## Known Bugs
+## Known Bugs
 
-  No known bugs.
+No known bugs.
 
-  ## Support and Contact Details
+## Support and Contact Details
 
-  Contact Brett New at brett.new91@gmail.com
+Contact Brett New at brett.new91@gmail.com
 
-  ## Technologies Used
+## Technologies Used
 
-  * HTML, CSS, Bootstrap, Javascript, Ember2
+* HTML, CSS, Bootstrap, Javascript, Ember2
 
-  ## Links
+## Links
 
-  Git Hub Repository: https://github.com/brettnew/javascript-week-2
+Git Hub Repository: https://github.com/brettnew/javascript-week-2
 
-  ### License
+### License
 
-  *This software is licensed under the GPL license.*
+*This software is licensed under the GPL license.*
 
-  Copyright (c) 2016 Brett New
+Copyright (c) 2016 Brett New

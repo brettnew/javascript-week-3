@@ -3,4 +3,5 @@
 <h1>Questions:</h1>
   {{#each model as |question|}}
     <h1>{{#link-to 'question' question.id}}{{question.content}}{{/link-to}}</h1>
+    <h6>{{question.author}}</h6>
   {{/each}}

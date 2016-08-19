@@ -1,7 +1,12 @@
-# Javascript-week-3
+# Question and Answer Board App
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### Javascript Week 3 Independent Project for Epicodus, 08/19/2016
+
+#### By Brett New
+
+## Description
+
+This program will allow users to add, update, and delete questions. The user may click on a question to view all the details for it, and to then add answers to that question.
 
 ## Prerequisites
 
@@ -51,3 +56,24 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+  ## Known Bugs
+
+  No known bugs.
+
+  ## Support and Contact Details
+
+  Contact Brett New at brett.new91@gmail.com
+
+  ## Technologies Used
+
+  * HTML, CSS, Bootstrap, Javascript, Ember2
+
+  ## Links
+
+  Git Hub Repository: https://github.com/brettnew/javascript-week-2
+
+  ### License
+
+  *This software is licensed under the GPL license.*
+
+  Copyright (c) 2016 Brett New

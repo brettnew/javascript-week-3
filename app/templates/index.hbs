@@ -1,7 +1,9 @@
 <h1>Welcome to the Q &amp; A Board</h1>
 
 <h1>Questions:</h1>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
     <h1>{{#link-to 'question' question.id}}{{question.content}}{{/link-to}}</h1>
     <h6>{{question.author}}</h6>
   {{/each}}
+
+{{add-question saveQuestion2="saveQuestion3"}}
